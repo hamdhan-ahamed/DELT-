@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamdhan Ahamed - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="img/dp Naruto.jpg">
+</head>
+<body>
+
+    <!-- ── NAVIGATION ── -->
+    <nav id="navbar">
+        <div class="nav-logo">HILMY HAMDHAN<span class="logo-dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger" aria-label="Menu" role="button">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home"     onclick="closeMenu()"><i class="fas fa-house"></i> Home</a>
+        <a href="#about"    onclick="closeMenu()"><i class="fas fa-user"></i> About Me</a>
+        <a href="#education" onclick="closeMenu()"><i class="fas fa-graduation-cap"></i> Education</a>
+        <a href="#services" onclick="closeMenu()"><i class="fas fa-wrench"></i> Skills</a>
+        <a href="#projects" onclick="closeMenu()"><i class="fas fa-code"></i> Projects</a>
+        <a href="#contact"  onclick="closeMenu()"><i class="fas fa-envelope"></i> Contact</a>
+    </div>
+
+    <!-- ── HERO ── -->
+    <section id="home" class="hero-section">
+        <div class="hero-bg"></div>
+        <div class="hero-grid"></div>
+        <div class="hero-particles" id="particles"></div>
+
+        <div class="hero-inner">
+            <div class="hero-text reveal">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span><a href="https://github.com/hamdhan-ahamed" aria-label="GitHub" target="_blank"></a>
+                    xHunter - Vist My PRO 
+                </div>
+                <p class="hero-greeting">Hi, It's me</p>
+                <h1 class="hero-name" style="font-size: clamp(2rem, 3.5vw, 3rem);">Mohammed Hilmy</h1>
+                <h1 class="hero-name">Hamdhan<br><span>Ahamed</span></h1>
+                <h2 class="hero-role">And I'm <span id="dynamic-chip" class="neon-cyan">Web Developer</span></h2>
+                <p class="hero-desc"> Aspiring ICT Undergraduate | Passionate about creating innovative web solutions </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary"><i class="fas fa-code"></i> View Projects</a>
+                    <a href="#contact"  class="btn-outline"><i class="fas fa-paper-plane"></i> Hire Me</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/hamdhan-ahamed" aria-label="GitHub"><img src="img/github 1.png" alt="GitHub" class="github social-icon"></i></a>
+                    <a href="https://www.linkedin.com/in/hilmy-hamdhan-3b0273335?utm_source=share_via&utm_content=profile&utm_medium=member_android" aria-label="LinkedIn"><img src="img/LI-48.png" alt="LinkedIn" class="linkedin social-icon"></i></a>
+                    <a href="http://www.youtube.com/@hunter_sqoud" aria-label="YouTube"><img src="img/YT-64.png" alt="YouTube" class="youtube social-icon"></i></a>
+                    <a href="https://www.facebook.com/share/1bHhjAFava/" aria-label="Facebook"><img src="img/FB-48.png" alt="Facebook" class="facebook social-icon"></i></a>
+                    <a href="https://www.instagram.com/hilmyhamdhan?igsh=MTdscGF3a3Y1c3B5ZQ==" aria-label="Instagram"><img src="img/IG-48.png" alt="Instagram" class="instagram social-icon"></i></a>
+                    <a href="https://wa.me/94740414969" aria-label="WhatsApp"><img src="img/WA-48.png" alt="WhatsApp" class="whatsapp social-icon"></i></a>
+                </div>
+            </div>
+
+            
+            <div class="hero-image reveal">
+                <div class="hero-img-ring"></div>
+                <div class="hero-img-ring ring2"></div>
+                <img src="img/mypic.png" alt="Hamdhan Ahamed" class="dp"/>
+            </div>
+        </div>
+              <div class="about-info-cards">
+                        <div class="ainfo-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <strong>Degree</strong>
+                                <span>BICT - University of Kelaniya</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-card">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Faculty</strong>
+                                <span>Faculty of Computing and Technology</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-card">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <strong>University</strong>
+                                <span>University of Kelaniya</span>
+                            </div>
+                        </div>
+                         <div class="ainfo-card">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Kal-Eliya, Gampaha, Sri Lanka 🇱🇰</span>
+                            </div>
+                        </div>
+                        <div class="ainfo-card">
+                            <i class="fas fa-briefcase"></i>
+                            <div>
+                                <strong>Student NO</strong>
+                                <span>CT-2022-006</span>
+                            </div>
+                        </div>
+
+                        <div class="about-right reveal">
+                    <div class="about-block">
+                        <h3><span class="block-icon">👋</span> Who Am I?</h3>
+                        <p>Hey there! I'm Hamdhan Ahamed, a 23 years old undergraduate  
+                            following a Bachelor of Information and 
+                            Communication Technology (BICT) at the University of Kelaniya.
+                            I have a strong interest in software development and enjoy learning
+                             new technologies related to programming and system design. During
+                              my academic journey, I have gained knowledge in programming 
+                              languages such as C, Java, and web development technologies
+                               including HTML, CSS, and JavaScript.
+                               <br><br>I am a motivated and curious learner who is 
+                               always looking for opportunities to improve my technical
+                                and problem-solving skills. My goal is to become a 
+                                skilled software developer and contribute to innovative
+                                 and impactful technology solutions in the future.</p>
+                    </div>
+
+                    </div>
+
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- ── STATS STRIP ── -->
+    <div class="stats-strip">
+        <div class="stat-item"><span class="stat-num">5+</span><span class="stat-lbl">Projects</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">3</span><span class="stat-lbl">Years Study</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">10+</span><span class="stat-lbl">Technologies</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat-item"><span class="stat-num">∞</span><span class="stat-lbl">Curiosity</span></div>
+    </div>
+
+    <!-- ── ABOUT ── -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Get To Know Me</span>
+                <h2 class="section-title">About <span class="neon">Me</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-left reveal">
+                    <div class="about-img-wrap">
+                        <img src="img/mypic.jpg" alt="Hamdhan Ahamed" class="about-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="about-img-placeholder"><i class="fas fa-user-circle"></i></div>
+                        <div class="about-img-deco"></div>
+                    </div>
+              
+                </div>
+
+                
+
+                    <div class="about-block">
+                        <h3><span class="block-icon">🚀</span> My Journey in Tech</h3>
+                        <p>From an early age, I was fascinated by how technology shapes the world around us. This curiosity led me to dive into programming, where I quickly found my strengths in problem-solving and learning new technologies. I developed skills in multiple programming languages, working on projects that enhance user experiences and solve real-world problems.</p>
+                    </div>
+
+
+                    <div class="about-block">
+                        <h3><span class="block-icon">📜</span> Certifications</h3>
+                        <div class="cert-chips">
+                            <span class="cert-chip">Dip.English</span>
+                            <span class="cert-chip">Dip.IT</span>
+                            <span class="cert-chip">C Programming</span>
+                            <span class="cert-chip">Python Programming</span>
+                            <span class="cert-chip">Web Dev (HTML/CSS/JS)</span>
+                            <span class="cert-chip">Java & Kotlin</span>
+                            <span class="cert-chip">Android Studio</span>
+                            <span class="cert-chip">Graphic Design</span>
+                        </div>
+                        
+                    </div>
+
+                      <div class="about-block">
+                        <h3><span class="block-icon">📜</span> Technical and Personal Interests</h3>
+                          <p>I have a strong interest in the field of technology, specially in software 
+                            and application development. I enjoy developing mobile applications, working on 
+                            software based projects, and exploring UI/UX design concepts. In addition, I have 
+                            experience and interest in web development, graphic designing, and video editing.
+                            and I did small level projects in these fields such as a simple Android app and a 
+                            Blender animated project. I am always eager to learn new
+                            technologies and stay updated with the latest trends in the tech industry.
+                            <br><br>
+                            Apart from academics, I am also interested in gaming and game-related design 
+                            concepts, which help me think creatively and improve my problem-solving skills.</p>
+                    
+                        
+                    </div>
+
+                    <div class="about-block">
+                        <h3><span class="block-icon">⚡</span> Career Goals</h3>
+                        <p>My main career goal is to become a professional software 
+                            developer. I aim to build efficient, user-friendly, and 
+                            innovative applications that can solve real world problems.
+                             I am particularly interested in expanding my knowledge in
+                              mobile app development and AI fields.</p>
+                        
+                    </div>
+
+                    <div class="about-block">
+                        <h3><span class="block-icon">⚡</span> Personal Values</h3>
+                        <p>I believe in the power of continuous learning and innovation. 
+                            I try to maintain a strong work ethic, demonstrate integrity in all my 
+                            attempts, and contribute positively to my community and the tech industry.</p>
+                    </div>
+
+                    <div class="about-block">
+                        <h3><span class="block-icon">⚡</span> What I Do</h3>
+                        <ul class="about-list">
+                            <li><i class="fas fa-check-circle"></i> Software Development — Web & mobile apps using C, Java ,Kotlin, JavaScript</li>
+                            <li><i class="fas fa-check-circle"></i> UI/UX & Design — GIMP, Blender, prototyping and wireframing</li>
+                            <li><i class="fas fa-check-circle"></i> Content Creator — Creating engaging content for various platforms (NextGenBytes)</li>
+                            <li><i class="fas fa-check-circle"></i> Leadership — President, Undergraduate Society of Kal-Eliya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Academic Achievements-->
+  <!-- ── EDUCATION ── -->
+<section id="education" class="section education-section">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-label">Academic Journey</span>
+      <h2 class="section-title">My <span class="neon">Education</span></h2>
+    </div>
+
+    <div class="edu-timeline">
+
+      <!-- BICT -->
+      <div class="edu-item reveal">
+        <div class="edu-dot dot-bsc"></div>
+        <div class="edu-card">
+          <div class="edu-header">
+            <div>
+              <div class="edu-school">🏛️ University of Kelaniya · Faculty of Computing & Technology</div>
+              <h3 class="edu-title">Bachelor of ICT (BICT)</h3>
+              <p class="edu-sub">Specialising in <strong>Software Engineering</strong></p>
+            </div>
+            <span class="edu-year year-bsc">
+              <span class="edu-status"><span class="status-dot ongoing"></span> 2023 - Present</span>
+            </span>
+          </div>
+          <div class="edu-pic">
+            <img src="img/fct.jpg" alt="University of Kelaniya" class="edu-pic" onerror="this.style.display='none'">
+            <img src="img/UOK1.png" alt="University of Kelaniya" class="edu-pic" onerror="this.style.display='none'">
+          </div>
+
+
+          <div class="gpa-bar-wrap">
+            <div class="gpa-bar-label"><span>Academic Progress</span><span>Year 2</span></div>
+            <div class="gpa-bar"><div class="gpa-fill"></div></div>
+          </div>
+          <button class="edu-toggle" onclick="eduTog(this)">
+            View modules & activities <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="edu-extra">
+            <p class="edu-modules-label">Core Modules</p>
+            <div class="edu-pills">
+              <span class="epill">Programming Fundamentals</span>
+              <span class="epill">Data Structures</span>
+              <span class="epill">Web Development</span>
+              <span class="epill">DBMS</span>
+              <span class="epill">OOP with Java</span>
+              <span class="epill">Computer Networks</span>
+              <span class="epill">Software Engineering</span>
+              <span class="epill">Digital Electronics & Technology</span>
+              <span class="epill">Mathematics</span>
+            </div>
+            <div class="edu-note">🏆 President — Undergraduate Society of Kal-Eliya &nbsp;·&nbsp; IEEE Member &nbsp;·&nbsp; 5+ academic projects</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- A/L -->
+      <div class="edu-item reveal">
+        <div class="edu-dot dot-al"></div>
+        <div class="edu-card">
+          <div class="edu-header">
+            <div>
+              <div class="edu-school">Kekunagolla National School</div>
+              <h3 class="edu-title">G.C.E. Advanced Level</h3>
+              <p class="edu-sub">Technology Stream</p>
+            </div>
+            <span class="edu-year year-al">2020 - 2023</span>
+          </div>
+
+          <div class="edu-pic">
+            <img src="img/KNS1.jpg" alt="University of Kelaniya" class="edu-pic" onerror="this.style.display='none'">
+            <img src="img/UOK1.png" alt="University of Kelaniya" class="edu-pic" onerror="this.style.display='none'">
+          </div>
+
+          <p class="edu-results-label">Results</p>
+          <div class="edu-results">
+            <div class="result-chip"><div class="r-subj">ICT</div><div class="r-grade g-a">A</div></div>
+            <div class="result-chip"><div class="r-subj">SFT</div><div class="r-grade g-b">B</div></div>
+            <div class="result-chip"><div class="r-subj">E-Tech</div><div class="r-grade g-b">B</div></div>
+          </div>
+          <button class="edu-toggle" onclick="eduTog(this)">
+            More details <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="edu-extra">
+            <div class="edu-note">Z-score - 1.9715 </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- O/L School  -->
+      <div class="edu-item reveal">
+        <div class="edu-dot dot-ol"></div>
+        <div class="edu-card">
+          <div class="edu-header">
+            <div>
+              <div class="edu-school">Aligarh Maha Vidyalaya</div>
+              <h3 class="edu-title">G.C.E. Ordinary Level</h3>
+              <p class="edu-sub">Grade 01 - Grade 11</p>
+            </div>
+            <span class="edu-year year-ol">2009 - 2019</span>
+          </div>
+
+          <div class="edu-pic">
+            <img src="img/ANS1.jpg" alt="Aligarh Maha Vidyalaya" class="edu-pic" onerror="this.style.display='none'">
+            <img src="img/ANS2.jpg" alt="Aligarh Maha Vidyalaya" class="edu-pic" onerror="this.style.display='none'">
+          </div>
+
+          <p class="edu-results-label">O/L Results</p>
+          <div class="edu-results">
+            <div class="result-chip"><div class="r-subj">Islam</div><div class="r-grade g-a">1</div></div>
+            <div class="result-chip"><div class="r-subj">History</div><div class="r-grade g-a">1</div></div>
+            <div class="result-chip"><div class="r-subj">Maths</div><div class="r-grade g-b">2</div></div>
+            <div class="result-chip"><div class="r-subj">ICT</div><div class="r-grade g-b">2</div></div>
+            <div class="result-chip"><div class="r-subj">Commerce</div><div class="r-grade g-b">2</div></div>
+            <div class="result-chip"><div class="r-subj">English</div><div class="r-grade g-c">3</div></div>
+            <div class="result-chip"><div class="r-subj">Tamil</div><div class="r-grade g-c">3</div></div>
+            <div class="result-chip"><div class="r-subj">Tamil -LIT</div><div class="r-grade g-c">3</div></div>
+            <div class="result-chip"><div class="r-subj">Science</div><div class="r-grade g-s">4</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Others-->
+      <div class="edu-item reveal">
+        <div class="edu-dot dot-school"></div>
+        <div class="edu-card">
+          <div class="edu-header">
+            <div>
+              <div class="edu-school">COURSES</div>
+              <span class="edu-year year-school">2019</span>
+              <h3 class="edu-title">ESOFT Metro Campus</h3>
+              <p class="edu-sub">Dip.ENG and Dip.IT</p>
+
+              <span class="edu-year year-school">2023</span>
+              <h3 class="edu-title">BritishWay English Academy</h3>
+              <p class="edu-sub">Dip. English</p>
+
+            </div>
+    
+          </div>
+          <button class="edu-toggle" onclick="eduTog(this)">
+            Details <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="edu-extra">
+            <div class="edu-note">None</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- ── SKILLS / SERVICES ── -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">What I Offer</span>
+                <h2 class="section-title">My <span class="neon">Services</span></h2>
+            </div>
+
+            <div class="services-grid">
+                <div class="srv-card reveal">
+                    <div class="srv-img-wrap">
+                        <img src="img/software development .png" alt="Software Development" onerror="this.parentElement.innerHTML='<div class=\'srv-icon-fb\'><i class=\'fas fa-laptop-code\'></i></div>'">
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-num">01</div>
+                        <h3>Software Development <span>🖥️</span></h3>
+                        <ul>
+                            <li>Custom web and mobile application development</li>
+                            <li>Frontend & backend using C, Java, JavaScript, HTML, CSS, React JS</li>
+                            <li>Point of Sale (POS) Systems</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="srv-card reveal">
+                    <div class="srv-img-wrap">
+                        <img src="img/modern UI_UX design.png" alt="UI/UX Design" onerror="this.parentElement.innerHTML='<div class=\'srv-icon-fb\'><i class=\'fas fa-palette\'></i></div>'">
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-num">02</div>
+                        <h3>UI/UX Design & Prototyping <span>🎨</span></h3>
+                        <ul>
+                            <li>Designing interactive, user friendly interfaces</li>
+                            <li>Prototypes and wireframes for apps & websites</li>
+                            <li>Graphic design using GIMP & Blender</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="srv-card reveal">
+                    <div class="srv-img-wrap">
+                        <img src="img/modern AI & Smart Solutions without human figures.png" alt="AI Solutions" onerror="this.parentElement.innerHTML='<div class=\'srv-icon-fb\'><i class=\'fas fa-robot\'></i></div>'">
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-num">03</div>
+                        <h3>AI & Smart Solutions <span>🤖</span></h3>
+                        <ul>
+                            <li>Integrating AI for automation & fault detection (GaragePRO)</li>
+                            <li>AI-based healthcare solutions & wearable devices </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="srv-card reveal">
+                    <div class="srv-img-wrap">
+                        <img src="img/modern and human-free Technical Content Creation.png" alt="Content Creation" onerror="this.parentElement.innerHTML='<div class=\'srv-icon-fb\'><i class=\'fas fa-video\'></i></div>'">
+                    </div>
+                    <div class="srv-body">
+                        <div class="srv-num">04</div>
+                        <h3>Technical Content Creation <span>🎥</span></h3>
+                        <ul>
+                            <li>Tech explainer videos & tutorials -such as Installing Softwares steps ,etc</li>
+                            <li>Educational content on programming & Video Editing</li>
+                            <li>YouTube content creation — NextGen Bytes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="srv-card reveal">
+                    <div class="srv-img-wrap">
+                        <img src="img/Project Consultation & Collaboration 🤝.png" alt="Consultation" onerror="this.parentElement.innerHTML='<div class=\'srv-icon-fb\'><i class=\'fas fa-handshake\'></i></div>'">
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Skills Bar -->
+            <div class="skills-bar-section reveal">
+                <h3 class="skills-bar-title">Technical Skills</h3>
+
+                <h4 class="skills-bar-subtitle">Programming Languages</h4>
+                <div class="skills-pills">
+                    <span class="pill pill-blue">Python</span>
+                    <span class="pill pill-green">Java</span>
+                    <span class="pill pill-red">C</span>
+                    <span class="pill pill-purple">Kotlin</span>
+                    <span class="pill pill-cyan">HTML5 / CSS3</span>
+                    <span class="pill pill-blue">JavaScript</span>
+                    <span class="pill pill-orange">Android Studio</span>
+                    <span class="pill pill-green">VS Code</span>
+                    <span class="pill pill-purple">MySQL</span>
+                    <span class="pill pill-orange">Arduino</span>
+                    <span class="pill pill-orange">EasyEDA / KiCad</span>
+                    
+                
+                </div>
+
+                <h4 class="skills-bar-subtitle">Tools & Frameworks</h4>
+                  <div class="skills-pills">
+                    <span class="pill pill-cyan">Git / GitHub</span>
+                    <span class="pill pill-blue">React JS</span>
+                    <span class="pill pill-green">MS Office</span>
+                    <span class="pill pill-red">XAMPP</span>
+                    <span class="pill pill-orange">EasyEDA / KiCad</span>
+                    
+                 
+                    
+                </div>
+                <h4 class="skills-bar-subtitle">Designing Tools</h4>
+                  <div class="skills-pills">
+                    <span class="pill pill-pink">Figma / GIMP</span>
+                    <span class="pill pill-blue">PS / Illustrator</span>
+                    <span class="pill pill-orange">Blender</span>
+                     
+                </div>
+                <h4 class="skills-bar-subtitle">Hardware Skills</h4>
+                  <div class="skills-pills" style="display: grid;width:fit-content;grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));gap:10px; margin: auto;">
+                    <span class="pill pill-pink">Circuit design and troubleshooting </span>
+                    <span class="pill pill-blue">Soldering and PCB design </span>
+                    <span class="pill pill-orange">Electrical wiring and safety practices</span>
+                    <span class="pill pill-orange">Vehicle mechanics</span>
+                    <span class="pill pill-orange">Basic Networking</span>
+                     
+                </div>
+            </div>
+
+            <h2 class="section-title reveal" style="font-size: 1.5rem;margin-top: 5rem;">Club Activities <span class="neon">Leadership Experience</span></h2>
+            <div class="other-skills reveal">
+                <div class="other-skill-card">
+                    <br>
+                    <h4> 01. Undergraduate Society of Kal-Eliya</h4>
+                    <div class="proj-detail-row" style="display: grid;">
+                        <span style="color: white;"><i class="fas fa-user"></i> President</span>
+                        <span><i class="fas fa-calendar"></i>  Resposibilities</span>
+                          <p style="font-size: 0.9rem; margin-left: 0.5rem;">As the President of the USK, 
+                            I am responsible for leading the society and coordinating its
+                             activities. I oversee event planning, manage team members,
+                              and ensure smooth communication among members. I also take
+                               part in decision making and guide the society towards achieving 
+                               its goals.</p>
+                        <span><i class="fas fa-graduation-cap"></i>  Skills Developed:</span>
+                        <p style="font-size: 0.9rem;margin-left: 0.5rem;">Leadership, Event Planning, Team Management, Communication</p>
+                    </div>
+<br>
+                    <h4> 02. University Majlis</h4>
+                    <div class="proj-detail-row" style="display: grid;">
+                        <span style="color: white;"><i class="fas fa-user"></i> Delivery Specialist</span>
+                        <span><i class="fas fa-calendar"></i>  Responsibilities</span>
+                          <p style="font-size: 0.9rem; margin-left: 0.5rem;">In the University Majlis, 
+                            I serve as a Delivery Specialist, where I contribute to organizing 
+                            and supporting various activities and events conducted by the 
+                            organization.</p>
+                        <span><i class="fas fa-graduation-cap"></i>  Skills Developed:</span>
+                        <p style="font-size: 0.9rem;margin-left: 0.5rem;">Teamwork and collaboration</p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">My <span class="neon">Projects</span></h2>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- GaragePro -->
+                <div class="proj-card reveal">
+                    <div class="proj-img GaragePro-img">
+                        <div class="proj-overlay">
+                            <div class="proj-overlay-btns">
+                                <a href="http://localhost/garage-management-system/frontend/index.html" class="proj-btn" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                                <a href="#" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-tags">
+                            <span class="ptag">HTML</span><span class="ptag">CSS</span><span class="ptag">PHP</span><span class="ptag">MySQL</span><span class="ptag">XAMPP</span>
+                        </div>
+                        <h3>GaragePro</h3>
+                        <p>A comprehensive web-based garage management system designed for small and medium sized garages in Sri Lanka. Digitizes service management, booking, and customer communication.</p>
+                        <button class="proj-details-btn" onclick="toggleDetails(this)">
+                            View Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="proj-details">
+                            <h4>Description</h4>
+                            <p>GaragePro addresses significant challenges faced by garages such as inefficient manual service management, lack of streamlined booking, poor customer communication, and fragmented operations. By digitizing these processes, GaragePro boosts productivity, improves customer satisfaction, and provides a simple, low-cost solution for garage owners.</p>
+                         
+                             <h4>OutComes:</h4>
+                                <p style="font-size: small;margin-left: 2rem;">I was involved in designing and developing 
+                                    the system, including both the UI and UX.    
+                                </p>
+                            <div class="proj-detail-row">
+                                <span><i class="fas fa-book"></i> Module:Project In Technology</span>
+                                <span><i class="fas fa-user"></i> Role: Back End Developer & Marketing Manager</span>
+                                <span><i class="fas fa-calendar"></i> Year 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prosthetic Hand -->
+                <div class="proj-card reveal">
+                    <div class="proj-img ProstheticHand-img">
+                        <div class="proj-overlay">
+                            <div class="proj-overlay-btns">
+                                <a href="#" class="proj-btn"><i class="fab fa-"></i> Photos</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-tags">
+                            <span class="ptag">CardBoards</span><span class="ptag">Mechanical</span><span class="ptag">Iteration Metrics</span>
+                        </div>
+                        <h3>Prosthetic Hand Device</h3>
+                        <p>To design a prosthetic hand solution for an individual who lost three fingers, 
+                            enabling them to perform basic daily tasks.</p>
+                        <button class="proj-details-btn" onclick="toggleDetails(this)">
+                            View Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="proj-details">
+                            <h4>Description</h4>
+                            <p>This project focused on creating a prosthetic hand without
+                                 using any electronic components. The design aimed to
+                                  restore partial hand functionality using mechanical 
+                                  movement and simple structures.</p>
+
+                                <h4>OutComes:</h4>
+                                <ul style="font-size: small;margin-left: 2rem;">
+                                    <li>Got knowledge in practical problem solving, design thinking, team collaboration and human centered solutions.</li>
+                    
+                                </ul>
+
+                            <div class="proj-detail-row">
+                                <span><i class="fas fa-book"></i> Module: Fundamentals of Practices</span>
+                                <span><i class="fas fa-user"></i> Role: Hardware Engineer and Presenter</span>
+                                <span><i class="fas fa-calendar"></i> Year 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 Line following robot -->
+                <div class="proj-card reveal">
+                    <div class="proj-img LNRobot-img" style="background: linear-gradient(135deg,rgba(99,102,241,.35),rgba(34,211,238,.2));">
+                        
+                        <div class="proj-overlay">
+                            <div class="proj-overlay-btns">
+                                <a href="#" class="proj-btn"><i class="fab fa-google"></i> DEMO</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-tags">
+                            <span class="ptag">KiCAD & EasyEDA</span><span class="ptag">Mechanical</span><span class="ptag">IR sensors</span><span class="ptag">Microcontroller-free</span><span class="ptag">PCB</span>
+                        </div>
+                        <h3>TRANSISTOR-BASED LINE FOLLOWING ROBOT(Without Microcontroller)</h3>
+                        <p>This project aims to design and build a transistor based line following robot.</p>
+                        <button class="proj-details-btn" onclick="toggleDetails(this)">
+                            View Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="proj-details">
+                            <h4>Description</h4>
+                            <p> This robot can follow a 2 cm wide black 
+                            line on a white surface, detect obstacles in front, and stop, 
+                            showing a red light. The main goal is to finish the robot using 
+                            only individual components, without using microcontrollers, motor
+                             driver modules, or any programmable devices. The project
+                                outlines a complete low cost, transistor-based line-following 
+                                robot design using discrete components only.</p>
+
+                                <h4>OutComes:</h4>
+                                <ul style="font-size: small;margin-left: 2rem;">
+                                    <li>Designed and built a functional line-following robot</li>
+                                    <li>Developed skills in circuit design and troubleshooting</li>
+                                    <li>Enhanced understanding of transistor-based logic circuits</li>
+                                </ul>
+
+                            <div class="proj-detail-row">
+                                <span><i class="fas fa-book"></i> Module: Fundamentals of Electronics</span>
+                                <span><i class="fas fa-user"></i> Role: PCB & Circuit Design , Demo Presenter </span>
+                                <span><i class="fas fa-calendar"></i> Year 2025</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 placeholder -->
+                <div class="proj-card reveal">
+                    <div class="proj-img proj-placeholder-img" style="background: linear-gradient(135deg,rgba(236,72,153,.3),rgba(245,158,11,.2));">
+                        <div class="proj-placeholder-icon"><i class="fas fa-desktop"></i></div>
+                        <div class="proj-overlay">
+                            <div class="proj-overlay-btns">
+                                <a href="#" class="proj-btn"><i class="fab fa-github"></i> Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="proj-body">
+                        <div class="proj-tags">
+                            <span class="ptag">WEB</span>
+                        </div>
+                        <h3>Sand Transportation System</h3>
+                        <p>To develop a system to monitor sand transportation and manage permit issuing.</p>
+                        <button class="proj-details-btn" onclick="toggleDetails(this)">
+                            View Details <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="proj-details">
+                            <h4>Description</h4>
+                            <p>This system was designed to track trucks transporting sand and
+                                 manage the issuing of permits. It helps improve transparency 
+                                 and efficiency in transportation management.</p>
+
+                                  <h4>OutComes:</h4>
+                                <ul style="font-size: small;margin-left: 2rem;">
+                                    <li>Ongoing</li>
+                                   
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <h2 class="section-title reveal" style="font-size: 1.5rem;margin-top: 5rem;">Reflec<span class="neon">ctions </span></h2>
+                <div class="other-projects reveal">
+                    <div class="other-proj-card">
+
+                        <p>Throughout my academic journey, I have faced
+                             challenges in communication and public speaking.
+                              Initially, I experienced anxiety when presenting 
+                              in front of others, which affected my confidence
+                               and fluency.However, through continuous practice and participation
+                                in classroom activities, I have gradually improved my communication
+                                 skills. I learned that confidence develops over time with effort
+                                  and consistency.In the future, I aim to further improve my presentation skills 
+                                  and become more confident in expressing my ideas.
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Reach Out</span>
+                <h2 class="section-title">Get In <span class="neon">Touch</span></h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3>Let's work together!</h3>
+                    <p>Open to internship opportunities, project collaborations, and conversations about technology and innovation. Don't hesitate to reach out!</p>
+
+                    <div class="contact-links">
+                        <div  class="clink">
+                            <div class="clink-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong>
+                                <a href="mailto:ahamedahmed3763@gmail.com" class="mail"><span>ahamedahmed3763@gmail.com</span></a>
+                                <a href="mailto:mhhamdh-ct2022006@stu.kln.ac.lk" class="mail"><span>mhhamdh-ct2022006@stu.kln.ac.lk</span></a>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/hilmy-hamdhan-3b0273335?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="clink">
+                            <div class="clink-icon"><img src="img/LI-48.png" alt="LinkedIn" class="social-icon"></i></div>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <span>Connect with me</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/hamdhan-ahamed" class="clink">
+                            <div class="clink-icon"><img src="img/github 1.png" alt="GitHub" class="social-icon"></i></div>
+                            <div>
+                                <strong>GitHub</strong>
+                                <span>View my repos</span>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/94740414969" class="clink">
+                            <div class="clink-icon clink-wa"><img src="img/WA-48.png" alt="WhatsApp" class="social-icon"></i></div>
+                            <div>
+                                <strong>WhatsApp</strong>
+                                <span>+94740414969</span>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                <div class="contact-form-wrap reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Hamdhan Ahamed" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project collaboration...">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or idea..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-send">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ── FOOTER ── -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">HILMY HAMDHAN<span>.</span></div>
+            <p>&copy; 2024 Hamdhan Ahamed </p>
+            <div class="footer-socials">
+                <a href="#"><img src="img/github 1.png" alt="GitHub" class="social-icon"></a>
+                <a href="#"><img src="img/LI-48.png" alt="LinkedIn" class="social-icon"></a>
+                <a href="#"><img src="img/YT-64.png" alt="YouTube" class="social-icon"></a>
+            </div>
+        </div>
+        <p class="footer-sub"></p>
+    </footer>
+
+    <!-- Back to top -->
+    <button class="back-top" id="backTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="JS.js"></script>
+</body>
+</html>
